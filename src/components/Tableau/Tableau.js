@@ -8,7 +8,7 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink ="https://raw.githubusercontent.com/MohamedMERHDAOUI/portfoliojs/main/src/Assets/tableau.pdf";
+const resumeLink ="https://raw.githubusercontent.com/MohamedMERHDAOUI/portfoliojs/master/src/Assets/tableau.pdf";
 
 function Tableau() {
   const [width, setWidth] = useState(1200);
