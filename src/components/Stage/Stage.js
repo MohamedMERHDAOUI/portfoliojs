@@ -1,4 +1,5 @@
 import React from "react";
+import "./Stage.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import auto1 from "../../Assets/../Assets/auto1.png";
