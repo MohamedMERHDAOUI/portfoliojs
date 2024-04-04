@@ -26,7 +26,6 @@ function Projects() {
               title="Calculatrice C"
               description="Projet d'une calculatrice en C realiser a Charles de Foucauld"
               ghLink="https://github.com/MohamedMERHDAOUI/calculatrice/blob/main/DocCalculatriceC.pdf"
-              demoLink=""
             />
           </Col>
 
@@ -35,8 +34,7 @@ function Projects() {
               imgPath={portfolio}
               title="Portfolio"
               description="Projet d'un portfolio realiser a Charles de Foucauld."
-              ghLink=""
-              demoLink=""
+              ghLink="https://github.com/MohamedMERHDAOUI/portfoliodoc/blob/main/docPortfolio.pdf"
             />
           </Col>
 
@@ -45,8 +43,7 @@ function Projects() {
               imgPath={maquetteresponsive}
               title="Maquette Responsive"
               description="Projet em html/css realiser a epitech, Paris"
-              ghLink="https://github.com/Nouffel1997/Maquette-Responsive"
-              // demoLink="https://maquette-responsive.vercel.app/"              
+              ghLink="https://github.com/MohamedMERHDAOUI/maquettedoc/blob/main/Docmaquette.pdf"      
             />
           </Col>
 
@@ -55,7 +52,7 @@ function Projects() {
               imgPath={parking}
               title="Parking"
               description="Projet de gestion de parking en Laravel realiser a Charles de Foucauld "
-              ghLink="" 
+              ghLink="https://github.com/MohamedMERHDAOUI/parkingdoc/blob/main/Parking.pdf" 
             />
           </Col>
 
@@ -64,7 +61,7 @@ function Projects() {
               imgPath={personnel}
               title="Personnel"
               description="Projet de Gestion du personnel de ligues en java realiser a Charles de Foucauld  ."
-              ghLink="https://github.com/Nouffel1997/"  
+              ghLink="https://github.com/MohamedMERHDAOUI/personneldoc/blob/main/AP2_Personnel.pdf"  
             />
           </Col>
 
@@ -72,8 +69,8 @@ function Projects() {
             <ProjectCard
               // imgPath={}
               title="Tp Seven"
-              description="projet d'accompagnement des utilisateurs pour windows7 "
-              ghLink=""
+              description="Projet d'accompagnement des utilisateurs pour windows7 "
+              ghLink="https://github.com/MohamedMERHDAOUI/tp7doc/blob/main/tp-seven.pdf"
             />
           </Col>
         </Row>
