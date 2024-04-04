@@ -4,14 +4,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Button from "react-bootstrap/Button";
 import pdf from "../../Assets/../Assets/malware.pdf";
+import malware from "../../Assets/../Assets/malware.png";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
+import {pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
-
-
-const veilleLink =
-  "https://raw.githubusercontent.com/MohamedMERHDAOUI/portfoliojs/master/src/Assets/malware.pdf";
 
 function Veille() {
   const [width, setWidth] = useState(1200);
@@ -71,13 +68,17 @@ function Veille() {
       </Container>
       </section>
 
+
       <Container fluid className="resume-section">
         <Particle />
 
         <Row className="resume">
-          <Document file={veilleLink} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
+          <img
+                src={malware}
+                className="img-fluid"
+                style={{ maxWidth: "900px" }}
+                
+              />
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
@@ -88,7 +89,7 @@ function Veille() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Téléchargement du CV
+            &nbsp;Ma Veille
           </Button>
         </Row>
       </Container>
