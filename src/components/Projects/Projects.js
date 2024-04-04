@@ -7,6 +7,7 @@ import calculatrice from "../../Assets/Projects/calculatricec.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
 import personnel from "../../Assets/Projects/personnel.png";
 import parking from "../../Assets/Projects/parking.png";
+import tp7 from "../../Assets/Projects/tp7.png";
 
 function Projects() {
   return (
@@ -67,7 +68,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={}
+              imgPath={tp7}
               title="Tp Seven"
               description="Projet d'accompagnement des utilisateurs pour windows7 "
               ghLink="https://github.com/MohamedMERHDAOUI/tp7doc/blob/main/tp-seven.pdf"
