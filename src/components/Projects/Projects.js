@@ -25,7 +25,7 @@ function Projects() {
             <ProjectCard
               imgPath={calculatrice}
               title="Calculatrice C"
-              description="Projet d'une calculatrice en C realiser a Charles de Foucauld"
+              description="Projet d'une calculatrice en C"
               ghLink="https://github.com/MohamedMERHDAOUI/calculatrice/blob/main/DocCalculatriceC.pdf"
             />
           </Col>
